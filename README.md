@@ -7,7 +7,6 @@ Konut İçi Harcama Takibi, Denetimi ve Borç Normalizasyonu Sistemi, konut içi
 
 Sistem, birden fazla kullanıcı arasında gerçekleşen finansal işlemlerin şeffaf, izlenebilir ve tutarlı biçimde yönetilmesini hedefler.
 
----
 
 ## Amaç ve Kapsam
 
@@ -20,7 +19,6 @@ Bu projenin temel amacı:
 
 Sistem, küçük ölçekli yerleşim birimlerinden daha geniş kullanım senaryolarına kadar uyarlanabilir şekilde tasarlanmıştır.
 
----
 
 ## Temel Özellikler
 
@@ -31,7 +29,6 @@ Sistem, küçük ölçekli yerleşim birimlerinden daha geniş kullanım senaryo
 - Denetlenebilir veri modeli  
 - Genişletilebilir servis mimarisi  
 
----
 
 ## Mimari Yaklaşım
 
@@ -44,7 +41,6 @@ Sistem, modern yazılım geliştirme prensipleri esas alınarak tasarlanmıştı
 
 Bu yaklaşım, sistemin uzun vadeli bakımını ve geliştirilmesini kolaylaştırmayı amaçlar.
 
----
 
 ## Sistem Bileşenleri
 
@@ -63,7 +59,6 @@ Bu yaklaşım, sistemin uzun vadeli bakımını ve geliştirilmesini kolaylaşt�
 - Parasal değerler için hassas hesaplama  
 - Geçmiş işlemlerin izlenebilirliği  
 
----
 
 ## Veri Modeli
 
@@ -75,7 +70,6 @@ Sistem aşağıdaki temel kavramlar etrafında yapılandırılmıştır:
 - **Settlement**: Borç ve alacakların dengelenmiş hali  
 - **Audit Log**: Sistem içi işlemlerin kayıtları  
 
----
 
 ## Borç Normalizasyonu
 
@@ -87,7 +81,6 @@ Bu süreçte:
 - Fazla veya eksik ödeme durumları tespit edilir  
 - Gereksiz transferler minimize edilerek net borç durumu oluşturulur  
 
----
 
 ## Güvenlik ve Denetim
 
@@ -96,7 +89,6 @@ Bu süreçte:
 - Denetim kayıtları ile işlem izlenebilirliği  
 - Veri bütünlüğünü koruyan doğrulama süreçleri  
 
----
 
 ## Kurulum ve Çalıştırma
 
@@ -104,16 +96,18 @@ Kurulum adımları ve yapılandırma detayları ilgili dokümantasyon altında a
 
 Sistem, container tabanlı dağıtım senaryolarını destekleyecek şekilde yapılandırılmıştır.
 
----
 
 ## Lisans
 
 Bu proje **Apache License 2.0** kapsamında lisanslanmıştır.
 
----
 
 ## Katkı
 
-Katkı süreçleri, kodlama standartları ve gelişti
+Katkı süreçleri, kodlama standartları ve geliştirme yönergeleri proje dokümantasyonunda tanımlanmıştır.
 
+
+## Not
+
+Bu proje, konut içi finansal süreçlerin yönetimini standartlaştırmayı hedefleyen teknik bir çalışmadır.
 
